@@ -1,4 +1,4 @@
-package pomocorp.todolitereactnativeandroid;
+package com.couchbase.todolitereactnativeandroid;
 
 import org.junit.Test;
 

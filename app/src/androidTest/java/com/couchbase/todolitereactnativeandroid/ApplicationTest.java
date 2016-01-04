@@ -1,4 +1,4 @@
-package pomocorp.todolitereactnativeandroid;
+package com.couchbase.todolitereactnativeandroid;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

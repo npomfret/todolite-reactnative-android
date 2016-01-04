@@ -1,5 +1,15 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
+apply plugin: 'idea'
+
+idea {
+    module {
+        downloadJavadoc = true
+        downloadSources = true
+        excludeDirs = [file("gradle"), file(".gradle"), file("node_modules"), file("build"), file("app/build")]
+    }
+}
+
 buildscript {
     repositories {
         jcenter()
