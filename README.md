@@ -12,3 +12,4 @@ Commands
     ~/Downloads/couchbase-sync-gateway/bin/sync_gateway sync-gateway-config.json
 
     $ANDROID_HOME/platform-tools/adb reverse tcp:4984 tcp:4984
+    $ANDROID_HOME/platform-tools/adb forward tcp:5984 tcp:5984
