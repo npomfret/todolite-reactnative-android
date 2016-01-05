@@ -1,3 +1,5 @@
+Copied from : https://github.com/couchbaselabs/todolite-reactnative-android
+
 Web front end
 
 http://localhost:4985/_admin/db/todos
@@ -9,4 +11,4 @@ Commands
 
     ~/Downloads/couchbase-sync-gateway/bin/sync_gateway sync-gateway-config.json
 
-    /Users/nickpomfret/android/platform-tools/adb reverse tcp:4984 tcp:4984
+    $ANDROID_HOME/platform-tools/adb reverse tcp:4984 tcp:4984
