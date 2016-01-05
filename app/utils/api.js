@@ -50,8 +50,23 @@ var api = {
         continuous: true
       })
     }).then((res) => res.json());
-  }
+  },
   
+  startSync2(){
+    return fetch(this.localDatabaseUrl + '/_replicate', {
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        create_target : true,
+        source: this.remoteDatabaseUrl + '/todos',
+        target: 'todos',
+        continuous: true
+      })
+    }).then((res) => res.json());
+  }
+
 };
 
 module.exports = api;

@@ -1,9 +1,15 @@
-Copied from : https://github.com/couchbaselabs/todolite-reactnative-android
+Copied from: https://github.com/couchbaselabs/todolite-reactnative-android
 
-Web front end
+Web front end stuff:
 
-http://localhost:4985/_admin/db/todos
+Couchbase lite (on the device):
+http://localhost:5984/todos/_all_docs?include_docs=true
+
+Sync gateway (user port)
 http://localhost:4984/todos/_all_docs?include_docs=true
+
+Sync gateway (admin port)
+http://localhost:4985/_admin/db/todos
 
 Commands
 
